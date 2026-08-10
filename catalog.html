@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baseball Warner | Catálogo</title>
+  <meta name="description" content="Catálogo dinámico de leyendas del béisbol generado a partir de XML mediante XSLT.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="index.html" class="navbar__brand">
+        <span class="ball" aria-hidden="true">⚾</span> Baseball Warner
+      </a>
+      <button class="navbar__toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <ul class="navbar__menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Nosotros</a></li>
+        <li><a href="catalog.html" aria-current="page">Catálogo</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1 class="section-title">Catálogo de leyendas</h1>
+      <p style="max-width:750px;margin:0 auto 2rem;text-align:center;color:var(--color-text-light);">
+        Este catálogo se genera dinámicamente a partir de <code>data/datos.xml</code>, transformado
+        en tiempo real mediante la hoja de estilos <code>data/catalogo.xslt</code>.
+      </p>
+
+      <div id="catalog-container">
+        <p class="catalog-status">Cargando catálogo…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Baseball Warner. Proyecto académico. Todos los derechos reservados.</p>
+    <p><a href="contact.html">Contáctanos</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
