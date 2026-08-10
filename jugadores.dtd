@@ -1,0 +1,11 @@
+<!-- DTD para validar datos.xml - Catálogo de Leyendas del Béisbol -->
+<!ELEMENT catalogo (jugador+)>
+<!ELEMENT jugador (nombre, equipo, posicion, era, jonrones, promedio, descripcion)>
+<!ATTLIST jugador id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT era (#PCDATA)>
+<!ELEMENT jonrones (#PCDATA)>
+<!ELEMENT promedio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

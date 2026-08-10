@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogo.xslt"?>
+<!DOCTYPE catalogo SYSTEM "jugadores.dtd">
+<catalogo>
+    <jugador id="j1">
+        <nombre>Babe Ruth</nombre>
+        <equipo>New York Yankees</equipo>
+        <posicion>Jardinero derecho</posicion>
+        <era>1914-1935</era>
+        <jonrones>714</jonrones>
+        <promedio>.342</promedio>
+        <descripcion>Considerado el mejor bateador de la historia, revolucionó el juego con su poder al bate.</descripcion>
+    </jugador>
+    <jugador id="j2">
+        <nombre>Hank Aaron</nombre>
+        <equipo>Milwaukee/Atlanta Braves</equipo>
+        <posicion>Jardinero derecho</posicion>
+        <era>1954-1976</era>
+        <jonrones>755</jonrones>
+        <promedio>.305</promedio>
+        <descripcion>Mantuvo el récord de jonrones en las Grandes Ligas durante más de 30 años.</descripcion>
+    </jugador>
+    <jugador id="j3">
+        <nombre>Willie Mays</nombre>
+        <equipo>New York/San Francisco Giants</equipo>
+        <posicion>Jardinero central</posicion>
+        <era>1951-1973</era>
+        <jonrones>660</jonrones>
+        <promedio>.301</promedio>
+        <descripcion>Reconocido por su defensa espectacular y su versatilidad en todas las facetas del juego.</descripcion>
+    </jugador>
+    <jugador id="j4">
+        <nombre>Derek Jeter</nombre>
+        <equipo>New York Yankees</equipo>
+        <posicion>Campocorto</posicion>
+        <era>1995-2014</era>
+        <jonrones>260</jonrones>
+        <promedio>.310</promedio>
+        <descripcion>Capitán legendario de los Yankees, ganó 5 Series Mundiales con un liderazgo excepcional.</descripcion>
+    </jugador>
+    <jugador id="j5">
+        <nombre>Pedro Martínez</nombre>
+        <equipo>Boston Red Sox</equipo>
+        <posicion>Lanzador</posicion>
+        <era>1992-2009</era>
+        <jonrones>0</jonrones>
+        <promedio>N/A</promedio>
+        <descripcion>Uno de los lanzadores dominicanos más dominantes de la historia, tres veces ganador del Cy Young.</descripcion>
+    </jugador>
+    <jugador id="j6">
+        <nombre>Mariano Rivera</nombre>
+        <equipo>New York Yankees</equipo>
+        <posicion>Lanzador cerrador</posicion>
+        <era>1995-2013</era>
+        <jonrones>0</jonrones>
+        <promedio>N/A</promedio>
+        <descripcion>El mejor cerrador de todos los tiempos, con 652 salvamentos en su carrera.</descripcion>
+    </jugador>
+    <jugador id="j7">
+        <nombre>Sammy Sosa</nombre>
+        <equipo>Chicago Cubs</equipo>
+        <posicion>Jardinero derecho</posicion>
+        <era>1989-2007</era>
+        <jonrones>609</jonrones>
+        <promedio>.273</promedio>
+        <descripcion>Estrella dominicana que protagonizó una histórica carrera de jonrones en 1998.</descripcion>
+    </jugador>
+</catalogo>
